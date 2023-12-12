@@ -45,15 +45,16 @@ export const experiencesData = [
   {
     title: "Web Developer Trainee",
     company: "Innovex Academy,Bhubaneswar, India",
-    description: "",
-    // "I worked as a web developer trainee for 6 months. I also worked as a freelancer.",
+    description:
+      "I worked as a web developer trainee for 6 months. I also worked as a freelancer.",
     icon: React.createElement(CgWorkAlt),
     date: "2020 - 2021",
   },
   {
     title: "Software Developer II",
     company: "SearchingYard Software Pvt. Ltd.,Bhubaneswar, India",
-    description: "",
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
