@@ -94,14 +94,22 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+  "Bootstrap",
+  "Material UI",
+
+  "Rest API",
+
+  // "Prisma",
   "MongoDB",
-  "Redux",
+  // "Redux",
   "GraphQL",
-  "Apollo",
+  // "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Firebase",
+
+  // "Python",
+  // "Django",
+  // "Framer Motion",
+  "Context API",
 ] as const;
