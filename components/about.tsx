@@ -17,32 +17,33 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>About me ✨</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        After earning my degree in{" "}
+        <span className="font-medium">Computer Science</span>, I embarked on a
+        journey fueled by my passion for programming. 🚀{" "}
+        <span className="italic">Solving complex problems</span> is the
+        heartbeat of my work, and the joy of finding solutions is my constant
+        motivation. I stay at the forefront of technology, always eager to
+        explore the latest frameworks and methodologies. My expertise spans a
+        range of technologies, including{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          JavaScript, React, Next.js, Firebase, Tailwind CSS, and Rest APIs
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        . Additionally, I'm well-versed in TypeScript. My learning journey
+        extends to the backend, where I'm currently diving into{" "}
+        <span className="font-medium">MongoDB, Express, and Node.js</span>.
+        {/* Open to new challenges and learning opportunities, I am */}
+        {/* currently seeking ways to contribute as a{" "} */}
+        {/* <span className="font-medium">full-time software developer</span>. */}
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">Away from the code editor</span>, I find joy in
+        the rhythm of a badminton match, the magic of cinema 🎬, the melody of
+        music 🎵, and the enchantment of a good book 📚. The pursuit of
+        knowledge is a constant companion, and I cherish the thrill of learning
+        new things. 🌱
       </p>
     </motion.section>
   );
