@@ -24,10 +24,6 @@ Dive into the heart of my software development journey! This repository is a tre
 
 Feel the magic as you explore the code that brings my portfolio to life! 🌟✨
 
-<!-- ## Screenshots
-
-![Portfolio Screenshot](link-to-screenshot.png) -->
-
 ## Live Demo
 
 [Check out the live demo here](https://alivapriyadarshini.vercel.app/)
@@ -35,3 +31,13 @@ Feel the magic as you explore the code that brings my portfolio to life! 🌟✨
 ## Portfolio Website
 
 [Visit my portfolio website](https://alivapriyadarshini.vercel.app/)
+
+## Installation and Run
+
+1. Clone the repository: `git clone https://github.com/alivapriyadarshini5/portfolio-with-next.git`
+2. Navigate to the project directory: `cd portfolio-with-next`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000)
+
+Happy coding! 🚀
