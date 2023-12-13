@@ -10,6 +10,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
+import { FaReact } from "react-icons/fa"; // Import the FaReact icon
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
@@ -17,7 +18,7 @@ export default function Experience() {
 
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
-      <SectionHeading>My experience</SectionHeading>
+      <SectionHeading>My Experience 🌟</SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
@@ -37,7 +38,7 @@ export default function Experience() {
                     : "0.4rem solid rgba(255, 255, 255, 0.5)",
               }}
               date={item.date}
-              icon={item.icon}
+              icon={React.createElement(FaReact)} // Use the FaReact icon
               iconStyle={{
                 background:
                   theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",

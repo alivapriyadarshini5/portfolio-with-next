@@ -44,15 +44,15 @@ type Experience = {
 export const experiencesData: Experience[] = [
   {
     title: "Web Developer Trainee",
-    company: "Innovex Academy,Bhubaneswar, India",
+    company: "Innovex Academy, Bhubaneswar, India",
     description: (
       <ul className="list-disc mt-1 font-normal text-gray-700 dark:text-white/75">
         <li>
-          • Learn and built responsive Ui and optimize the page for fast
-          response using HTML,CSS, JavaScript,ReactJS,Bootstrap5.
+          🚀 Learn and built responsive UI, optimizing pages for fast response
+          using HTML, CSS, JavaScript, ReactJS, Bootstrap 5.
         </li>
         <li>
-          • Built reusable components and documented application changes and
+          🔄 Built reusable components, documented application changes, and
           worked on multiple projects and updates.
         </li>
       </ul>
@@ -66,22 +66,22 @@ export const experiencesData: Experience[] = [
     description: (
       <ul className="list-disc mt-1 font-normal text-gray-700 dark:text-white/75">
         <li>
-          • Worked with advanced web development technologies like ReactJS,
+          🚀 Worked with advanced web development technologies like ReactJS,
           NextJS, TypeScript, ECMAScript6, JavaScript, Tailwind CSS, Material
-          UI, BootStrap 5, CSS, HTML, and JSON.
+          UI, Bootstrap 5, CSS, HTML, and JSON.
         </li>
         <li>
-          • Worked on updated versions of React, React-RouterDom, React-Hooks,
+          🔄 Worked on updated versions of React, React-RouterDom, React-Hooks,
           and more.
         </li>
-        <li>• Worked on REST API and API integration.</li>
-        <li>Developed dynamic applications using FIREBASE.</li>
+        <li>🔗 Worked on REST API and API integration.</li>
+        <li>🔥 Developed dynamic applications using FIREBASE.</li>
         <li>
-          • Specialized in building logic for maximum performance across a vast
+          🧠 Specialized in building logic for maximum performance across a vast
           array of devices and browsers.
         </li>
         <li>
-          • Coordinated with the development team and worked on projects like
+          🤝 Coordinated with the development team and worked on projects like
           E-COMMERCE, ERP Management System, Inventory Management System, and
           more.
         </li>
@@ -91,6 +91,7 @@ export const experiencesData: Experience[] = [
     date: "2021 - present",
   },
 ];
+
 
 export const projectsData = [
   {
