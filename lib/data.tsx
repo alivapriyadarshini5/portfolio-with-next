@@ -90,7 +90,7 @@ export const experiencesData: Experience[] = [
     icon: <FaReact />,
     date: "2021 - present",
   },
-] as const;
+];
 
 export const projectsData = [
   {
