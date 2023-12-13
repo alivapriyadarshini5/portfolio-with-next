@@ -33,29 +33,61 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
-  // {
-  //   title: "Graduated bootcamp",
-  //   location: "Miami, FL",
-  //   description:
-  //     "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-  //   icon: React.createElement(LuGraduationCap),
-  //   date: "2019",
-  // },
+type Experience = {
+  title: string;
+  company: string;
+  description: React.ReactNode;
+  icon: React.ReactNode;
+  date: string;
+};
+
+export const experiencesData: Experience[] = [
   {
     title: "Web Developer Trainee",
     company: "Innovex Academy,Bhubaneswar, India",
-    description:
-      "I worked as a web developer trainee for 6 months. I also worked as a freelancer.",
+    description: (
+      <ul className="list-disc mt-1 font-normal text-gray-700 dark:text-white/75">
+        <li>
+          • Learn and built responsive Ui and optimize the page for fast
+          response using HTML,CSS, JavaScript,ReactJS,Bootstrap5.
+        </li>
+        <li>
+          • Built reusable components and documented application changes and
+          worked on multiple projects and updates.
+        </li>
+      </ul>
+    ),
     icon: React.createElement(CgWorkAlt),
     date: "2020 - 2021",
   },
   {
     title: "Software Developer II",
-    company: "SearchingYard Software Pvt. Ltd.,Bhubaneswar, India",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+    company: "SearchingYard Software Pvt. Ltd., Bhubaneswar, India",
+    description: (
+      <ul className="list-disc mt-1 font-normal text-gray-700 dark:text-white/75">
+        <li>
+          • Worked with advanced web development technologies like ReactJS,
+          NextJS, TypeScript, ECMAScript6, JavaScript, Tailwind CSS, Material
+          UI, BootStrap 5, CSS, HTML, and JSON.
+        </li>
+        <li>
+          • Worked on updated versions of React, React-RouterDom, React-Hooks,
+          and more.
+        </li>
+        <li>• Worked on REST API and API integration.</li>
+        <li>Developed dynamic applications using FIREBASE.</li>
+        <li>
+          • Specialized in building logic for maximum performance across a vast
+          array of devices and browsers.
+        </li>
+        <li>
+          • Coordinated with the development team and worked on projects like
+          E-COMMERCE, ERP Management System, Inventory Management System, and
+          more.
+        </li>
+      </ul>
+    ),
+    icon: <FaReact />,
     date: "2021 - present",
   },
 ] as const;
