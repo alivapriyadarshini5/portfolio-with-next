@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -90,7 +91,37 @@ export const experiencesData: Experience[] = [
       </ul>
     ),
     icon: <FaReact />,
-    date: "2021 - present",
+    date: "2021 - 2024",
+  },
+  {
+    title: "Next.js Developer",
+    company: "AIS Technolabs Pvt Ltd, Ahemadabad, India",
+    description: (
+      <ul className="list-disc mt-1 font-normal text-gray-700 dark:text-white/75">
+        <li className="mb-2">
+          🛠️ Specialized in Next.js, Redux, Bootstrap, NextAuth, and Jira Agile
+          methodology.
+        </li>
+        <li className="mb-2">
+          🎮 Developed engaging gaming applications using ReactJS,Next.js and
+          TypeScript.
+        </li>
+        <li className="mb-2">
+          ⚡ Ensured optimal performance across various devices and browsers.
+        </li>
+        <li className="mb-2">
+          🤝 Collaborated on E-COMMERCE and ERP Management Systems.
+        </li>
+        <li className="mb-2">
+          ✅ Implemented comprehensive unit testing for robust code quality.
+        </li>
+        <li className="mb-2">
+          🔍 Utilized Jira Agile methodology for effective project management.
+        </li>
+      </ul>
+    ),
+    icon: <SiNextdotjs />,
+    date: "2024 - Present",
   },
 ];
 
@@ -130,20 +161,15 @@ export const skillsData = [
   "Tailwind",
   "Bootstrap",
   "Material UI",
-
   "Rest API",
-
-  // "Prisma",
+  "Prisma",
   "MongoDB",
-  // "Redux",
+  "Redux",
   "GraphQL",
-  // "Apollo",
   "Express",
   "PostgreSQL",
   "Firebase",
-
-  // "Python",
-  // "Django",
-  // "Framer Motion",
+  "Appwrite",
+  "Framer Motion",
   "Context API",
 ] as const;

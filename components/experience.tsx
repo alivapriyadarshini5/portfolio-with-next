@@ -38,7 +38,7 @@ export default function Experience() {
                     : "0.4rem solid rgba(255, 255, 255, 0.5)",
               }}
               date={item.date}
-              icon={React.createElement(FaReact)} // Use the FaReact icon
+              icon={item?.icon} // Use the FaReact icon
               iconStyle={{
                 background:
                   theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
